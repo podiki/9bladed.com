@@ -1,0 +1,33 @@
+* [[https://9bladed.com][9bladed.com]] Source
+
+Here are the source files used for my website, [[https://9bladed.com][9bladed.com]]. There is nothing terribly special here, pretty much a standard static site built with [[https://gohugo.io/][Hugo]] and hosted on [[https://aws.amazon.com/][Amazon Web Services]] (AWS). This repository serves as a backup, version control, and perhaps will be of some use to others for a similar setup.
+
+** Building and updating
+To build and deploy, build the website with
+#+BEGIN_SRC sh
+  hugo -v
+#+END_SRC
+then upload to Amazon Web Services with ~aws~ command line tools
+#+BEGIN_SRC sh
+  aws s3 sync --acl "public-read" --sse "AES256" public/ "s3://S3-NAME" --exclude 'post'
+#+END_SRC
+where ~S3-NAME~ is the S3 bucket for the website. Finally invalidate (force refresh) on CloudFront with
+#+BEGIN_SRC sh
+  aws cloudfront create-invalidation --distribution-id DISTRIBUTION_ID --paths /index.html / "/page/*"
+#+END_SRC
+where ~DISTRIBUTION_ID~ is for the given CloudFront distribution. Note that this only invalidates files on the root folder, the index, and pages, so adjust as needed for other updates.
+
+** Useful links
+For moving to AWS with Hugo, these links were useful at the time:
+- https://bogacz.io/post/2016-08-03-first-post/
+- https://lustforge.com/2016/02/27/hosting-hugo-on-aws/
+
+*** Other potential useful resources
+I didn't follow these, but for future reference for moving to AWS and using AWS Lambda to build the website these may be useful:
+- https://agop.me/post/https-enabled-portfolio-hugo-s3-cloudfront.html
+- http://bezdelev.com/post/hugo-aws-lambda-static-website/
+- https://rsb.io/posts/overview-of-hugo-lambda/
+- https://github.com/ryansb/hugo-lambda
+
+** Bugs
+Due to a [[https://github.com/spf13/hugo/issues/2802][change in Hugo]] some themes needed to be updated to display certain pages. For the [[https://github.com/digitalcraftsman/hugo-cactus-theme][Cactus Theme]] that this blog uses, I had to make a change for the "About" page to be rendered, as detailed in this [[https://github.com/digitalcraftsman/hugo-cactus-theme/issues/20][issue]].

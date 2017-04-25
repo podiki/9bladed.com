@@ -1,0 +1,61 @@
+# Site settings
+baseurl = "https://9bladed.com/"
+languageCode = "en-us"
+title = "Aesthetics of the Absurd"
+theme = "hugo-cactus-theme"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+# Disable comments by leaving disqusShortname empty
+disqusShortname = "9bladed"
+
+[params]
+	name = "John Kehayias"
+	description = "Stuff about things"
+	bio = "Photography - Writing - Miscellany"
+	# Enter optionally your twitter account
+	twitter = "9bladed"
+	enableRSS = true
+
+	# Add custom assets with their paths relative to the static folder
+	customCSS = []
+	customJS  = []
+
+	# The variables below are optionally too and can be used to
+	# translate or customize each string of the theme.
+
+	# Navigation links
+	home = ""
+	about = ""
+	subscribe = ""
+	# Pagination links
+	olderPosts = ""
+	newerPosts = ""
+	readMore = ""
+	copyright = ""
+	# Sharing options and author information in posts
+	aboutAuthor = "I'm John."
+	tweet = ""
+	share = ""
+	# 404 page
+	title404 = ""
+	subtitle404 = ""
+
+	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
+	iconFont = "font-awesome"
+        # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+        socialIconStyle = "circle"
+
+# Add additional social link entries underneath
+[social]
+        twitter  = "https://www.twitter.com/9bladed"
+        #facebook = "https://www.facebook.com/"
+        #dribble  = "https://www.dribbble.com/"
+        instagram = "https://www.instagram.com/9bladed"
+        flickr = "https://www.flickr.com/9bladed"
+        500px = "https://500px.com/9bladed"
+        github   = "https://www.github.com/podiki"
+
+[taxonomies]
+        tag = "tags"
+        category = "categories"
+        series = "series"
