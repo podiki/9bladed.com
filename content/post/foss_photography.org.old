@@ -1,0 +1,38 @@
++++
+date = "2017-04-27T17:26:20-04:00"
+description = "A brief introduction to some of the many great (and free!) resources for open source photo organizing and editing."
+title = "Free and Open Source Photography Software"
+
++++
+
+Photography can easily become a very expensive hobby, from the cost of camera bodies, lenses, accessories, and software.
+
+[[https://pixls.us/][Pixl.us]]
+
+* Post Processing
+** Darktable
+This is some text [[file:https:/upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Darktable_icon.svg/1000px-Darktable_icon.svg.png]] around an image By Klaus Staedtler [GPL (http://www.gnu.org/licenses/gpl.html)], via Wikimedia Commons
+I started using Darktable at the end of last year as a replacement for Adobe's Lightroom. All of the [[https://flic.kr/s/aHskKLsCay][photos]] in my [[/photo-essay/paris][Paris photo essay]] were edited with Darkroom.
+
+- [[https://darktable.org/][Darktable]]'s official website, [[https://www.darktable.org/resources/][Resources page]] (manual useful, some older but still good links)
+- [[https://www.youtube.com/playlist?list=PL33t7emXCBHkMfiP1IcO-0_4mUAhh1lFA][Riley Brandt's videos]]
+- Harry Durgin's [[http://weeklyedit.com/][Weekly Edit]] [[https://www.youtube.com/playlist?list=PLsks-zRRM1ZVN_g7P6ZAsYVqTltmXyBjl][Darktable Edits playlist]]
+- Robert Hutton's [[https://www.youtube.com/playlist?list=PLmvlUro_Up1NBX7VK8UUuyWo1B468zEA0][Darktable videos]]
+- [[http://www.joaoalmeidaphotography.com/en/t3mujinpack-film-darktable/][film emulation presets]]
+- On the [[https://pixls.us/blog/2017/02/from-the-community-vol-2/][Pixl.us blog]] highlighted this [[https://discuss.pixls.us/t/lets-improve-grain/2709][discussion on grain]]
+
+** Other great options
+
+A heralded RAW converter [[http://rawtherapee.com/][RawTherapee]]
+
+Excellent tool for organizing [[https://www.digikam.org/][digiKam]]
+
+* Other tools
+
+[[http://www.sno.phy.queensu.ca/%257Ephil/exiftool/][ExifTool]]
+
+[[https://blog.andi95.de/2014/10/gps4cam-and-linux/][gps4cam and Linux]] to use the excellent [[http://gps4cam.com][gps4cam]] geotagging tool in Linux
+
+I wrote a simple reverse geocoding (getting location name and other attributes from GPS coordinates) script, which you can find on [[https://github.com/podiki/reverse_geo][GitHub]].
+
+[[http://www.damonlynch.net/rapid/][Rapid Photo Downloader]] (Linux)
