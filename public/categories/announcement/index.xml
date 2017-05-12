@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Announcement on Aesthetics of the Absurd</title>
-    <link>https://9bladed.com/categories/announcement/index.xml</link>
+    <link>https://9bladed.com/categories/announcement/</link>
     <description>Recent content in Announcement on Aesthetics of the Absurd</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://9bladed.com/categories/announcement/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Nov 2016 12:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://9bladed.com/categories/announcement/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Relaunch</title>
@@ -14,18 +17,9 @@
       <pubDate>Thu, 03 Nov 2016 12:00:00 +0100</pubDate>
       
       <guid>https://9bladed.com/post/relaunch/</guid>
-      <description>&lt;p&gt;&lt;a  href=&#34;https://www.flickr.com/photos/9bladed/28861739920&#34; title=&#34;Majestic&#34;&gt;&lt;img class=&#34;wide&#34; src=&#34;https://c1.staticflickr.com/9/8395/28861739920_7945771ebe_o.jpg&#34; alt=&#34;Majestic&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Hi there.&lt;/p&gt;
-
-&lt;p&gt;Yet again (I&amp;rsquo;ve lost track of how many times) I am rebranding and relaunching my website. I would love to give some assurances (mostly to myself) that it is for good and will continue posting regularly, but I think I finally know enough to not make such promises. I am hopeful, though, mostly because of my current situation.&lt;/p&gt;
-
-&lt;p&gt;To put it briefly, since I plan on going into many details in later writings, my time as a theoretical physicist has come to a close. I am no longer working as a researcher in academia, and have decided to go out in the world and work on the many other things I am interested in.&lt;/p&gt;
-
-&lt;p&gt;One goal of mine is to write more, and this website will be home to a collection of essays. As I alluded to above, this includes a series as a sort of &amp;ldquo;postmortem&amp;rdquo; on my time as a physicist. Another broad topic is photography. This is something I have interested in and snapping away at for many years, and at this point I find myself reflecting more on what it means to me and what I hope to accomplish. This is something I will be exploring, in both words and images.&lt;/p&gt;
-
-&lt;p&gt;So that&amp;rsquo;s my plan right now. Without the distractions of a proper job there are no more excuses&amp;hellip;&lt;/p&gt;
-</description>
+      <description>Hi there.
+Yet again (I&amp;rsquo;ve lost track of how many times) I am rebranding and relaunching my website. I would love to give some assurances (mostly to myself) that it is for good and will continue posting regularly, but I think I finally know enough to not make such promises. I am hopeful, though, mostly because of my current situation.
+To put it briefly, since I plan on going into many details in later writings, my time as a theoretical physicist has come to a close.</description>
     </item>
     
   </channel>

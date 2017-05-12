@@ -1,0 +1,22 @@
+/* Customization for the Hugo Cactus theme */
+
+/* add in numbered lists */
+ol li      { list-style-type:decimal;}
+
+/* wide images */
+img.wide {
+        max-height: 85vh;
+        height: auto;
+        max-width: 100vw;
+        width: auto;
+        display: block;
+        margin-left: 50%;
+        transform: translateX(-50%);
+}
+
+/* increase the width from default for everything */
+.profile #wrapper { max-width: 700px; }
+#wrapper { max-width: 700px; }
+#wrapper.home { max-width: 700px; }
+img { width: 100%; }
+@media screen and (max-width: 700px) { }

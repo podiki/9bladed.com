@@ -2,6 +2,7 @@
 date = "2016-10-31T09:57:35+01:00"
 title = "About"
 hidden = true
+menu = "main"
 +++
 
 ![That's me!](/images/avatar.jpg)
@@ -36,4 +37,4 @@ Reach me on your favorite social media or email me, john [dot] kehayias at gmail
 
 #### This Website
 
-Made with [Hugo](https://gohugo.io/) and the [Cactus theme](http://themes.gohugo.io/cactus/). Source for this website is available on [Github](https://github.com/podiki/9bladed.com).
+Made with [Hugo](https://gohugo.io/) and based on the [Cactus theme](http://themes.gohugo.io/cactus/). Source for this website is available on [Github](https://github.com/podiki/9bladed.com).

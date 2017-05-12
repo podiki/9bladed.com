@@ -1,55 +1,57 @@
-    {{ partial "head.html" . }}
-    <body>
-       {{ partial "nav.html" . }}
+{{ define "main" }}
+<article class="post">
+    <header>
+        <h1>{{ .Title }}</h1>
+        <h2 class="headline">
+        {{ .Date.Format "January 2, 2006" }}
+        <br>
+        <!-- remove tags from top of post -->
+        <!-- {{ with .Params.tags }} -->
+        <!-- {{ if ge (len .) 1 }} -->
+        <!--     {{ range . }} -->
+        <!--         <a href="{{ printf "tags/%s" (. | urlize) | absURL }}">{{ . }}</a> -->
+        <!--     {{ end }} -->
+        <!-- {{ end }} -->
+        <!-- {{ end}} -->
+        </h2>
+    </header>
+    <section id="post-body">
+        {{ .Content }}
+    </section>
+    <!-- add in tags/categories support -->
+        {{ with .Params.series }}
+        {{ if ge (len .) 1 }}
+    Series:
+            {{ range . }}
+                <a href="{{ $.Site.BaseURL }}series/{{ . | urlize }}">{{ . }}</a>
+            {{ end }}
+        {{ end }}
+        {{ end }}
+    <br>
+    {{ with .Params.categories }}
+    Categories: {{ delimit (apply (apply (sort .) "partial" "catlink" ".") "chomp" ".") ", "}}
+    {{ end }}
+    <br>
+    {{ with .Params.tags }}
+    Tags: {{ delimit (apply (apply (sort .) "partial" "taglink" ".") "chomp" ".") ", "}}
+    {{ end }}
+    <!-- end tags/categories support -->
+</article>
 
-        <section id="wrapper">
-            <article class="post">
-                <header>
-                    <h1>{{ .Title }}</h1>
-                    <h2 class="headline">
-                    {{ .Date.Format "January 2, 2006" }} 
-                    <br>
-                    </h2>
-                </header>
-                <section id="post-body">
-                    {{ .Content }}
-                </section>
-                {{ with .Params.series }}
-                    {{ if ge (len .) 1 }}
-                Series:
-                        {{ range . }}
-                            <a href="{{ $.Site.BaseURL }}series/{{ . | urlize }}">{{ . }}</a>
-                        {{ end }}
-                    {{ end }}
-                    {{ end }}
-                <br>
-                {{ with .Params.categories }}
-                Categories: {{ delimit (apply (apply (sort .) "partial" "catlink" ".") "chomp" ".") ", "}}
-                {{ end }}
-                <br>
-                {{ with .Params.tags }}
-                Tags: {{ delimit (apply (apply (sort .) "partial" "taglink" ".") "chomp" ".") ", "}}
-                {{ end }}
-            </article>
-            <footer id="post-meta" class="clearfix">
-                {{ with .Site.Params.twitter }}<a href="https://twitter.com/{{ . }}">{{ end }}
-                        <img class="avatar" src="{{ .Site.BaseURL }}images/avatar.png">
-                        <div>
-                            <span class="dark">{{ .Site.Params.name }}</span>
-                            <span>{{ .Site.Params.aboutAuthor }}</span>
-                        </div>
-                    {{ with .Site.Params.twitter }}</a>{{ end }}
-                <section id="sharing">
-                    {{ partial "share.html" . }}
-                </section>
-            </footer>
+<footer id="post-meta" class="clearfix">
+    {{ with .Site.Params.twitter }}<a href="https://twitter.com/{{ . }}">{{ end }}
+    <img class="avatar" src="{{ "images/avatar.png" | absURL }}">
+    <div>
+        <span class="dark">{{ .Site.Params.name }}</span>
+        <span>{{ .Site.Params.aboutAuthor }}</span>
+    </div>
+    {{ with .Site.Params.twitter }}</a>{{ end }}
+    <section id="sharing">
+        {{ partial "share.html" . }}
+    </section>
+</footer>
 
-            {{ template "_internal/disqus.html" . }}
+{{ template "_internal/disqus.html" . }}
 
-            {{ partial "latest-posts.html" . }}
-            {{ partial "footer.html" . }}
-        </section>
-
-        {{ partial "js.html" . }}
-    </body>
-</html>
+{{ partial "latest-posts.html" . }}
+{{ end }}
