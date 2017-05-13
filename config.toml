@@ -33,12 +33,12 @@ disqusShortname = "9bladed"
 	readMore = ""
 	copyright = ""
 	# Sharing options and author information in posts
-	aboutAuthor = "I'm John."
-	tweet = ""
-	share = ""
+	aboutAuthor = "Writing, photographing, thinking."
+	tweet = "Tweet this"
+	share = "Share this"
 	# 404 page
-	title404 = ""
-	subtitle404 = ""
+	title404 = "404 - Congratulations, you've achieved a new high score!"
+	subtitle404 = "Sadly, your prize is this error page."
 
 	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
 	iconFont = "font-awesome"
