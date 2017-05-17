@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogpost on Aesthetics of the Absurd</title>
-    <link>https://9bladed.com/categories/blogpost/</link>
-    <description>Recent content in Blogpost on Aesthetics of the Absurd</description>
+    <title>Free Software on Aesthetics of the Absurd</title>
+    <link>https://9bladed.com/tags/free-software/</link>
+    <description>Recent content in Free Software on Aesthetics of the Absurd</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 17 May 2017 15:30:00 -0400</lastBuildDate>
     
-	<atom:link href="https://9bladed.com/categories/blogpost/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://9bladed.com/tags/free-software/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,17 +19,6 @@
       <guid>https://9bladed.com/post/foss_photography/</guid>
       <description>A lizard pauses for a photo I took last year on a rafting trip in the Grand Canyon. [Flickr, 500px]
 Whether you are a budding amateur or a seasoned professional photographer, the software tools you use play an important role in organizing, editing, and showing your photos. Maybe you are tired of continuing to pay Adobe as all their software moves to subscriptions or are looking for some of the best tools out there which also happen to be free.</description>
-    </item>
-    
-    <item>
-      <title>Relaunch</title>
-      <link>https://9bladed.com/post/relaunch/</link>
-      <pubDate>Thu, 03 Nov 2016 12:00:00 +0100</pubDate>
-      
-      <guid>https://9bladed.com/post/relaunch/</guid>
-      <description>Hi there.
-Yet again (I&amp;rsquo;ve lost track of how many times) I am rebranding and relaunching my website. I would love to give some assurances (mostly to myself) that it is for good and will continue posting regularly, but I think I finally know enough to not make such promises. I am hopeful, though, mostly because of my current situation.
-To put it briefly, since I plan on going into many details in later writings, my time as a theoretical physicist has come to a close.</description>
     </item>
     
   </channel>
