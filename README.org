@@ -34,4 +34,4 @@ I didn't follow these, but for future reference for moving to AWS and using AWS 
 - Had to restore an older version of [[layouts/partials/head.html][head.html]] due to Cactus [[https://github.com/digitalcraftsman/hugo-cactus-theme/issues/35][Issue #35]] (regression of loading Font Awesome)
 - Due to a [[https://github.com/spf13/hugo/issues/2802][change in Hugo]] some themes needed to be updated to display certain pages. For the [[https://github.com/digitalcraftsman/hugo-cactus-theme][Cactus Theme]] that this blog uses, I had to make a change for the "About" page to be rendered, as detailed in this [[https://github.com/digitalcraftsman/hugo-cactus-theme/issues/20][issue]].
 
-*Update:* Now fixed upstream.
+  *Update:* Now fixed upstream.
