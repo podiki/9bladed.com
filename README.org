@@ -3,6 +3,11 @@
 Here are the source files used for my website, [[https://9bladed.com][9bladed.com]]. There is nothing terribly special here, pretty much a standard static site built with [[https://gohugo.io/][Hugo]] and hosted on [[https://aws.amazon.com/][Amazon Web Services]] (AWS). This repository serves as a backup, version control, and perhaps will be of some use to others for a similar setup.
 
 ** Building and updating
+The theme used is the [[https://github.com/digitalcraftsman/hugo-cactus-theme][Hugo Cactus theme]], included here as a submodule. After it has been added/initialized, to update do
+#+BEGIN_SRC sh
+  git submodule foreach git pull origin master
+#+END_SRC
+
 To build and deploy, build the website with
 #+BEGIN_SRC sh
   hugo -v
@@ -30,8 +35,4 @@ I didn't follow these, but for future reference for moving to AWS and using AWS 
 - https://github.com/ryansb/hugo-lambda
 
 ** Bugs
-- Added custom CSS for numbered lists, as the Cactus theme [[https://github.com/digitalcraftsman/hugo-cactus-theme/issues/34][currently doesn't support them]].
-- Had to restore an older version of [[layouts/partials/head.html][head.html]] due to Cactus [[https://github.com/digitalcraftsman/hugo-cactus-theme/issues/35][Issue #35]] (regression of loading Font Awesome)
-- Due to a [[https://github.com/spf13/hugo/issues/2802][change in Hugo]] some themes needed to be updated to display certain pages. For the [[https://github.com/digitalcraftsman/hugo-cactus-theme][Cactus Theme]] that this blog uses, I had to make a change for the "About" page to be rendered, as detailed in this [[https://github.com/digitalcraftsman/hugo-cactus-theme/issues/20][issue]].
-
-  *Update:* Now fixed upstream.
+*Update:* All previous bugs have been fixed upstream

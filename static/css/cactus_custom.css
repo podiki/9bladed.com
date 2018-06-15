@@ -1,8 +1,5 @@
 /* Customization for the Hugo Cactus theme */
 
-/* add in numbered lists */
-ol li      { list-style-type:decimal;}
-
 /* wide images */
 img.wide {
         max-height: 85vh;
