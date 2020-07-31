@@ -1,6 +1,9 @@
 +++
 title = "Existential Crisis"
 description = "No longer in the world of academia, I find both an immense freedom and struggle for what comes next"
+excerpt = "No longer in the world of academia, I find both an immense freedom and struggle for what comes next"
+hero = "https://live.staticflickr.com/5475/9562609097_fe78fcc1a6_o_d.jpg"
+herocap = "*A traditional home in Kashiwa-shi, Japan* [[Flickr]](https://www.flickr.com/photos/9bladed/9562609097/)"
 date = "2016-11-03T16:00:00+01:00"
 categories = [ "Essay", "Post-academia" ]
 tags = [ "Existential", "Physics" ]

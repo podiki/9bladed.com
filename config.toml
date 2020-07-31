@@ -3,7 +3,7 @@ baseurl = "https://9bladed.com/"
 themesDir = "themes"
 languageCode = "en-us"
 title = "Aesthetics of the Absurd"
-theme = "hugo-cactus-theme"
+theme = "novela"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 # Disable comments by leaving disqusShortname empty
@@ -18,7 +18,7 @@ disqusShortname = "9bladed"
 	enableRSS = true
 
 	# Add custom assets with their paths relative to the static folder
-	customCSS = ["css/cactus_custom.css"]
+	customCSS = ["css/custom.scss"]
 	customJS  = []
 
 	# The variables below are optionally too and can be used to
@@ -51,8 +51,8 @@ disqusShortname = "9bladed"
         #facebook = "https://www.facebook.com/"
         #dribble  = "https://www.dribbble.com/"
         instagram = "https://www.instagram.com/9bladed"
-        flickr = "https://www.flickr.com/9bladed"
-        500px = "https://500px.com/9bladed"
+        #flickr = "https://www.flickr.com/9bladed"
+        #500px = "https://500px.com/9bladed"
         github   = "https://www.github.com/podiki"
 
 [[menu.main]]

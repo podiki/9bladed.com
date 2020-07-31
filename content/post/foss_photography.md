@@ -1,14 +1,13 @@
 +++
 title = "Some Resources for Free Photography Software"
 description = "A brief introduction to some of the many great resources for free software for photographers."
+excerpt = "A brief introduction to some of the many great resources for free software for photographers."
+hero = "https://c1.staticflickr.com/5/4156/33612284144_1567fc232e_o.jpg"
+herocap = "*A lizard pauses for a photo I took last year on a rafting trip in the Grand Canyon.* [[Flickr](https://www.flickr.com/photos/9bladed/33612284144/in/album-72157670803546106/), [500px](https://500px.com/photo/210567161/lizard-by-john)]"
 date = "2017-05-17T15:30:00-04:00"
 categories = [ "Blogpost" ]
 tags = [ "Photography", "Free Software", "Open Source" ]
 +++
-
-<a href="https://www.flickr.com/photos/9bladed/33612284144/in/album-72157670803546106/" title=" Lizard"><img class="wide" src="https://c1.staticflickr.com/5/4156/33612284144_1567fc232e_o.jpg"></a>
-*A lizard pauses for a photo I took last year on a rafting trip in the Grand Canyon.*
-[[Flickr](https://www.flickr.com/photos/9bladed/33612284144/in/album-72157670803546106/), [500px](https://500px.com/photo/210567161/lizard-by-john)]
 
 Whether you are a budding amateur or a seasoned professional photographer, the software tools you use play an important role in organizing, editing, and showing your photos. Maybe you are tired of continuing to pay Adobe as all their software moves to subscriptions or are looking for some of the best tools out there which also happen to be free. In this post I will introduce some free (or "libre") software and related resources that I use or can recommend.
 
@@ -97,8 +96,6 @@ As an example of how these applications work together and what a free software p
 7. Export final jpeg from Darktable
 8. Run my reverse geocoding and tag cleanup script
 9. Upload to [Flickr](https://www.flickr.com/9bladed), [500px](https://500px.com/9bladed), etc.
-
-\
 
 A common workflow I've seen is to use digiKam for organizing and tagging, and either staying in digikam for editing, or switching over to Darktable or RawTherapee. (*Note*: you can use XMP files for synchronizing things like tags between programs, but be sure that these are kept up to date and exported/re-imported as needed.) There are many good options to find exactly what fits your own needs and style.
 

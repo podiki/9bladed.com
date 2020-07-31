@@ -1,0 +1,68 @@
+.section{
+    width: 100%;
+    max-width: 4000px;
+    margin: 0 auto;
+    padding: 0 4rem;
+
+    /*DESKTOP*/
+    @media screen and (max-width: 1070px){
+        max-width: 850px;
+    }
+
+    /*PHABLET*/
+    @media screen and (max-width: 540px){
+        max-width: 100%;
+        padding: 2rem;;
+    }
+
+    p{
+        /*TABLET*/
+        @media screen and (max-width: 735px){
+            padding: 0 4rem;
+            max-width: 567px;
+        }
+    }
+
+    
+}
+
+/**************************************ARTICLE HEAD**************************************/
+
+.article-header{
+    position: relative;
+    z-index: 10;
+    margin:50px auto 55px;
+    padding-left: 68px;
+    max-width: 749px;
+}
+
+.article-hero-heading{
+    font-size: 48px;
+    font-family: var(--serif);
+    margin-bottom: 12px;
+    font-weight: bold;
+    line-height: 1.32;
+}
+
+
+/**************************************ARTICLE BODY**************************************/
+
+.post-content{
+    padding: 35px 0 35px;
+}
+
+/*******IMAGES********/
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-hero-image{
+    position: relative; /*to fix image overlapping text in large window size*/
+    /*https://stackoverflow.com/a/33121816*/
+    width: calc(100% + 160px);
+    max-width: calc(100% + 160px);
+    margin-left: calc(-80px);
+    margin-right: calc(-80px);
+}

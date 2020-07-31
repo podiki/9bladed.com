@@ -1,7 +1,10 @@
 +++
 title = "Relaunch"
 description = "Relaunching my website yet again"
+excerpt = "Relaunching my website yet again"
 date = "2016-11-03T12:00:00+01:00"
+hero = "https://live.staticflickr.com/5522/9723881208_6b39c2c3de_o_d.jpg"
+herocap = "*Michelangelo's Dome in St. Peter's Basilica at the Vatican (Rome, Italy)* [[Flickr]](https://www.flickr.com/photos/9bladed/9723881208)"
 categories = [ "Announcement" , "Blogpost"]
 tags = [ "Website" ]
 +++

@@ -3,9 +3,10 @@ date = "2020-07-27T16:00:00-05:00"
 title = "About"
 hidden = true
 menu = "main"
+hero = "/images/avatar.jpg"
 +++
 
-![That's me!](/images/avatar.jpg)
+<!-- ![That's me!](/images/avatar.jpg) -->
 
 Hi, my name is John and I'm a recovering theoretical physicist. In the recent past I worked as a postdoctoral researcher, doing physics around the world. Currently I'm a Lecturer in Critical Writing at UPenn. This is my personal website for sharing various thoughts in blog posts, and more structured writing in the form of essays and photo essays. Thanks for stopping by!
 
