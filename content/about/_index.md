@@ -1,11 +1,11 @@
 +++
-date = "2020-07-27T16:00:00-05:00"
+date = "2021-01-17T16:00:00-05:00"
 title = "About"
 hidden = true
 menu = "main"
 +++
 
-![That's me!](/images/avatar.jpg)
+![That's me!](/images/avatar.png)
 
 Hi, my name is John and I'm a recovering theoretical physicist. In the recent past I worked as a postdoctoral researcher, doing physics around the world. Currently I'm a Lecturer in Critical Writing at UPenn. This is my personal website for sharing various thoughts in blog posts, and more structured writing in the form of essays and photo essays. Thanks for stopping by!
 
@@ -17,9 +17,15 @@ While my day job is teaching, I am also a freelance writer, photographer, and da
 
 Reach me on your favorite social media (see below) or email me, john.kehayias at protonmail.com
 
-#### Recent publications
+#### Recent writing
 
-[The Worst F-Word at The Chronicle of Higher Education](http://www.chronicle.com/article/The-Worst-F-Word/240669?cid=wcontentgrid_hp_2)
+[The Worst F-Word](http://www.chronicle.com/article/The-Worst-F-Word/240669?cid=wcontentgrid_hp_2): my story of facing reality in academia and having to leave it behind (The Chronicle of Higher Education)
+
+[My Journey to Finally Ditching Windows for Good](https://boilingsteam.com/my-journey-to-finally-ditching-windows-for-good/): on moving from Windows to Linux and free, open source software (Boiling Steam)
+
+[Diversity in Open Source and Gaming: Does it Matter?](https://boilingsteam.com/diversity-in-open-source-and-gaming-does-it-matter/): lack of diversity and racism are problems everywhere, though often not noticed in open source and gaming (Boiling Steam)
+
+[The Valve Index. On Linux. On A Min Spec Machine.](https://boilingsteam.com/the-valve-index-on-linux-on-a-min-spec-machine/): I got a virtual reality headset and now live in the future, though my computer is struggling a bit (Boiling Steam)
 
 #### Links
 
@@ -49,4 +55,6 @@ And if you want the official details, here is my current CV.
 
 ##### This Website
 
-Made with [Hugo](https://gohugo.io/) and based on the [Cactus theme](http://themes.gohugo.io/cactus/). Source for this website is available on [Github](https://github.com/podiki/9bladed.com).
+Made with [Hugo](https://gohugo.io/) and based on the [Cactus theme](https://github.com/digitalcraftsman/hugo-cactus-theme). Source for this website is available on [Github](https://github.com/podiki/9bladed.com).
+
+[Powered by plants!](/images/flowerpower.jpg)
