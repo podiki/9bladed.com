@@ -69,3 +69,7 @@ disqusShortname = "9bladed"
         tag = "tags"
         category = "categories"
         series = "series"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
