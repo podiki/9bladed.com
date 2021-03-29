@@ -1,0 +1,56 @@
+/* smaller, italic captions */
+figcaption {
+    font-style: italic;
+    font-size: 1.0rem;
+}
+
+/* add in lists */
+/* Main Level indentation */
+ul li {
+    margin-left: 20px;
+    list-style-type: circle;
+}
+/* Second Level */
+ul ul li {
+    margin-left: 25px;
+    list-style-type: circle;
+}
+/* Third Level */
+ul ul ul li {
+    margin-left: 30px;
+    list-style-type: circle;
+}
+
+/* for portrait images to display the full image in viewport, centered */
+figure.portrait img {
+    width: auto !important;
+    max-height: 90vh !important;
+    display: block;
+}
+
+.nav-brand {
+    font-family: "Metropolis";
+    font-weight: bold;
+    font-style: italic
+}
+
+/* don't captalize all of the site title */
+.nav_item {
+    text-transform: none;
+}
+
+.nav-menu {
+    /*background-color: #04a763;*/
+}
+
+/* make posts narrower */
+.post p, .post h1, .post h2, .post h3, .post h4, .post h5, .post h6, .post blockquote, .post ol, .post ul {
+    max-width: 650px !important;
+}
+
+/* fix too wide images (header only?) and center */
+.post img:not(.icon) {
+    max-height: 100vh;
+    width: auto;
+    display: block;
+}

@@ -3,7 +3,11 @@ baseurl = "https://9bladed.com/"
 themesDir = "themes"
 languageCode = "en-us"
 title = "Aesthetics of the Absurd"
-theme = "hugo-cactus-theme"
+theme = "newsroom"
+author = "John Kehayias"
+copyright = "Copyright © 2021 John Kehayias; all rights reserved."
+canonifyurls = true
+paginate = 6
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 # Disable comments by leaving disqusShortname empty
@@ -18,7 +22,7 @@ disqusShortname = "9bladed"
 	enableRSS = true
 
 	# Add custom assets with their paths relative to the static folder
-	customCSS = ["css/cactus_custom.css"]
+	customCSS = ["css/custom.css"]
 	customJS  = []
 
 	# The variables below are optionally too and can be used to
@@ -44,6 +48,9 @@ disqusShortname = "9bladed"
 	iconFont = "font-awesome"
         # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
         socialIconStyle = "circle"
+
+        locale = "en_US"
+        mainSections = ["post", "essay", "photo-essay"]
 
 # Add additional social link entries underneath
 [social]
@@ -72,4 +79,15 @@ disqusShortname = "9bladed"
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
+      hardWraps = false
       unsafe = true
+      xhtml = false
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = false
+    tabWidth = 2

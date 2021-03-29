@@ -1,57 +1,41 @@
 {{ define "main" }}
-<article class="post">
-    <header>
-        <h1>{{ .Title }}</h1>
-        <h2 class="headline">
-        {{ .Date.Format "January 2, 2006" }}
-        <br>
-        <!-- remove tags from top of post -->
-        <!-- {{ with .Params.tags }} -->
-        <!-- {{ if ge (len .) 1 }} -->
-        <!--     {{ range . }} -->
-        <!--         <a href="{{ printf "tags/%s" (. | urlize) | absURL }}">{{ . }}</a> -->
-        <!--     {{ end }} -->
-        <!-- {{ end }} -->
-        <!-- {{ end}} -->
-        </h2>
-    </header>
-    <section id="post-body">
-        {{ .Content }}
-    </section>
-    <!-- add in tags/categories support -->
-        {{ with .Params.series }}
-        {{ if ge (len .) 1 }}
-    Series:
-            {{ range . }}
-                <a href="{{ $.Site.BaseURL }}series/{{ . | urlize }}">{{ . }}</a>
-            {{ end }}
-        {{ end }}
-        {{ end }}
-    <br>
-    {{ with .Params.categories }}
-    Categories: {{ delimit (apply (apply (sort .) "partial" "catlink" ".") "chomp" ".") ", "}}
-    {{ end }}
-    <br>
-    {{ with .Params.tags }}
-    Tags: {{ delimit (apply (apply (sort .) "partial" "taglink" ".") "chomp" ".") ", "}}
-    {{ end }}
-    <!-- end tags/categories support -->
-</article>
-
-<footer id="post-meta" class="clearfix">
-    {{ with .Site.Params.twitter }}<a href="https://twitter.com/{{ . }}">{{ end }}
-    <img class="avatar" src="{{ "images/avatar.png" | absURL }}">
+  <div class="wrap mt post">
     <div>
-        <span class="dark">{{ .Site.Params.name }}</span>
-        <span>{{ .Site.Params.aboutAuthor }}</span>
+      {{- $date := (dateFormat "02. January 2006" .Date) -}}
+      <p class="post_date">{{ $date }}</p>
+      <h1 class="post_title">{{ .Title }}</h1>
+      <div class="post_body">
+        <div class="post_inner">
+        {{ with .Params.image }}
+          {{- $image := absURL (printf "images/%s" .) }}
+          {{ if in . "https://" }}
+            {{- $image = . }}
+          {{ end }}
+          {{with $.Params.imagelink }}
+            <a href="{{.}}">
+          {{ end }}
+          <img src="{{ $image }}" alt="{{ . }}" class="post_thumbnail">
+          {{ if $.Params.imagelink }}
+            </a>
+          {{ end }}
+          {{ with $.Page.Params.imagecap }}
+          <figcaption>{{ . | markdownify }}</figcaption>
+          {{ end }}
+        {{ end }}
+          {{ .Content }}
+        </div>
+        <div class="post_extra mb-2">
+          {{ partialCached "share" . }}
+        </div>
+        <div>
+        {{ template "_internal/disqus.html" . }}
+        </div>
+      </div>
     </div>
-    {{ with .Site.Params.twitter }}</a>{{ end }}
-    <section id="sharing">
-        {{ partial "share.html" . }}
-    </section>
-</footer>
-
-{{ template "_internal/disqus.html" . }}
-
-{{ partial "latest-posts.html" . }}
+    <a href="{{ $.Site.BaseURL }}" class="post_nav"><span class="post_next">The Latest 
+      <svg class="icon icon_scale">
+        <use xlink:href="#double-arrow"></use>
+      </svg>
+    </span></a>
+  </div>
 {{ end }}

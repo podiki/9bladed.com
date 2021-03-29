@@ -1,14 +1,16 @@
 +++
 title = "Relaunch"
-description = "Relaunching my website yet again"
+description = "Relaunching my website yet again..."
 date = "2016-11-03T12:00:00+01:00"
 categories = [ "Announcement" , "Blogpost"]
 tags = [ "Website" ]
+image = "https://c1.staticflickr.com/9/8395/28861739920_7945771ebe_o.jpg"
+imagelink = "https://www.flickr.com/photos/9bladed/28861739920"
 +++
 
-<a  href="https://www.flickr.com/photos/9bladed/28861739920" title="Majestic"><img class="wide" src="https://c1.staticflickr.com/9/8395/28861739920_7945771ebe_o.jpg" alt="Majestic"></a>
-
 Hi there.
+
+<!--more-->
 
 Yet again (I've lost track of how many times) I am rebranding and relaunching my website. I would love to give some assurances (mostly to myself) that it is for good and will continue posting regularly, but I think I finally know enough to not make such promises. I am hopeful, though, mostly because of my current situation.
 

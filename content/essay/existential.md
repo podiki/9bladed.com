@@ -1,9 +1,11 @@
 +++
 title = "Existential Crisis"
-description = "No longer in the world of academia, I find both an immense freedom and struggle for what comes next"
+description = "No longer in the world of academia, I find both an immense freedom and struggle for what comes next."
 date = "2016-11-03T16:00:00+01:00"
 categories = [ "Essay", "Post-academia" ]
 tags = [ "Existential", "Physics" ]
+image = "https://live.staticflickr.com/5522/9723881208_78d4a44206_h_d.jpg"
+imagelink = "https://www.flickr.com/photos/9bladed/9723881208/"
 +++
 
 *After 5 years as a gradstudent and 5 years as a postdoc (researcher) in physics, my academic career has come to an end. This was not on my terms; I had come up short of my dream to be a tenured faculty member at a research university. I sold off what little furniture I had, packed up my few belongings, drove 1,000 miles (which turned out to be the end for the car) from the South back to the Northeast, and finally hopped on a plane to Europe. My current plan, if you can call it that, is only for a few months, to revive some dormant passion projects, in the hope of finding my path forward for whatever is next&#x2026;*

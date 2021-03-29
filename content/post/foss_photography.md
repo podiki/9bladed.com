@@ -4,13 +4,14 @@ description = "A brief introduction to some of the many great resources for free
 date = "2017-05-17T15:30:00-04:00"
 categories = [ "Blogpost" ]
 tags = [ "Photography", "Free Software", "Open Source" ]
+image = "https://c1.staticflickr.com/5/4156/33612284144_1567fc232e_o.jpg"
+imagecap = "A lizard pauses for a photo I took last year on a rafting trip in the Grand Canyon. [[Flickr](https://www.flickr.com/photos/9bladed/33612284144/in/album-72157670803546106/), [500px](https://500px.com/photo/210567161/lizard-by-john)]"
+imagelink = "https://www.flickr.com/photos/9bladed/33612284144/in/album-72157670803546106/"
 +++
 
-<a href="https://www.flickr.com/photos/9bladed/33612284144/in/album-72157670803546106/" title=" Lizard"><img class="wide" src="https://c1.staticflickr.com/5/4156/33612284144_1567fc232e_o.jpg"></a>
-*A lizard pauses for a photo I took last year on a rafting trip in the Grand Canyon.*
-[[Flickr](https://www.flickr.com/photos/9bladed/33612284144/in/album-72157670803546106/), [500px](https://500px.com/photo/210567161/lizard-by-john)]
-
 Whether you are a budding amateur or a seasoned professional photographer, the software tools you use play an important role in organizing, editing, and showing your photos. Maybe you are tired of continuing to pay Adobe as all their software moves to subscriptions or are looking for some of the best tools out there which also happen to be free. In this post I will introduce some free (or "libre") software and related resources that I use or can recommend.
+
+<!--more-->
 
 By [free software](https://www.gnu.org/philosophy/free-sw.html) I mean programs that a user has the freedom to use and do with as they like, including looking at and modifying the underlying computer code. While most people using these applications won't ever do anything with the code, there are many benefits to anyone using it. The more active projects tend to develop quickly, with frequent changes, bug fixes, and overall responsiveness to the community. There is no chance the program can just disappear (the source code is available) and it will continue to be supported as long as someone is willing to work on it. Finally, even if you do not have a strong belief in the principles of truly free software, there are some fantastic programs out there that compete with the expensive offerings from Adobe and the like...and are free.
 
@@ -62,6 +63,7 @@ All of the [photos](https://flic.kr/s/aHskKLsCay) in my [Paris photo essay](/pho
 * Harry Durgin's [Weekly Edit](http://weeklyedit.com/) (or [Darktable Edits playlist](https://www.youtube.com/playlist?list=PLsks-zRRM1ZVN_g7P6ZAsYVqTltmXyBjl) on YouTube) is an ongoing in-depth video series on advanced Darktable post processing. There are countless tricks and techniques in these videos that will take anyone's Darktable skills to another level.
 * Robert Hutton's [Darktable videos](https://www.youtube.com/playlist?list=PLmvlUro_Up1NBX7VK8UUuyWo1B468zEA0) are a bit older (and sadly nothing new for quite a while), but there is an extensive set of videos here to dive into.
 
+
 #### Other great options
 ##### [RawTherapee](http://rawtherapee.com/)
 RawTherapee has a heralded raw converter and is a very well regarded post processing program. While I have yet to try it myself, I have heard many good things and it is another popular option. And take a look at [RawPedia](http://rawpedia.rawtherapee.com/Main_Page), their excellent encyclopedia for RawTherapee and everything raw related.
@@ -98,9 +100,8 @@ As an example of how these applications work together and what a free software p
 8. Run my reverse geocoding and tag cleanup script
 9. Upload to [Flickr](https://www.flickr.com/9bladed), [500px](https://500px.com/9bladed), etc.
 
-\
-
 A common workflow I've seen is to use digiKam for organizing and tagging, and either staying in digikam for editing, or switching over to Darktable or RawTherapee. (*Note*: you can use XMP files for synchronizing things like tags between programs, but be sure that these are kept up to date and exported/re-imported as needed.) There are many good options to find exactly what fits your own needs and style.
+
 
 ### Giving back
 

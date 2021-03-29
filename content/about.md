@@ -1,11 +1,10 @@
 +++
-date = "2021-01-17T16:00:00-05:00"
+date = "2021-03-28T16:00:00-05:00"
 title = "About"
 hidden = true
 menu = "main"
+image = "avatar.png"
 +++
-
-![That's me!](/images/avatar.png)
 
 Hi, my name is John and I'm a recovering theoretical physicist. In the recent past I worked as a postdoctoral researcher, doing physics around the world. Currently I'm a Lecturer in Critical Writing at UPenn. This is my personal website for sharing various thoughts in blog posts, and more structured writing in the form of essays and photo essays. Thanks for stopping by!
 
@@ -18,6 +17,8 @@ While my day job is teaching, I am also a freelance writer, photographer, and da
 Reach me on your favorite social media (see below) or email me, john.kehayias at protonmail.com
 
 #### Recent writing
+
+[Death by 1,000 Tabs: Confessions of a Tab Hoarder](https://www.vice.com/en/article/88adya/death-by-1000-tabs-confessions-of-a-tab-hoarder): what can I say, I had a lot of tabs open, but no more (Vice)
 
 [The Worst F-Word](http://www.chronicle.com/article/The-Worst-F-Word/240669?cid=wcontentgrid_hp_2): my story of facing reality in academia and having to leave it behind (The Chronicle of Higher Education)
 
@@ -55,6 +56,6 @@ And if you want the official details, here is my current CV.
 
 ##### This Website
 
-Made with [Hugo](https://gohugo.io/) and based on the [Cactus theme](https://github.com/digitalcraftsman/hugo-cactus-theme). Source for this website is available on [Github](https://github.com/podiki/9bladed.com).
+Made with [Hugo](https://gohugo.io/) and based on the [Newsroom theme](https://github.com/digitalcraftsman/hugo-cactus-theme). Source for this website is available on [Github](https://github.com/podiki/9bladed.com).
 
 [Powered by plants!](/images/flowerpower.jpg)
