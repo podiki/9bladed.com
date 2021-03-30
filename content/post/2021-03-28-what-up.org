@@ -1,0 +1,18 @@
+#+DATE: 2021-03-29T22:00:00-04:00
+#+TITLE: What I've Been Up To
+#+DESCRIPTION: Been awhile, here are some updates!
+#+TAGS[]: Blog
+#+IMAGE: https://live.staticflickr.com/7291/8743655993_77466b811e_o_d.jpg
+#+IMAGELINK: https://www.flickr.com/photos/9bladed/8743655993/
+
+So, it's been a little time, huh? I wanted to give a few updates on what I've been up to as I've been doing more writing, though not so much on this site (obviously). Though I did just update to a shiny new theme, complete with dark mode. There is a plan going forward, but first what I've been writing, and where, in the meantime:
+
+As an unexpected turn of events, due to my [[https://9bladed.com/post/2017-07-20-f-word/][F-Word Essay]] being published at The Chronicle for Higher Education, I found myself a lecturer at the University of Pennsylvania! That was a few years ago now, and I'm still teaching in the [[http://writing.upenn.edu/critical/][The Marks Family Center for Excellence in Writing]] at UPenn. That has certainly kept me busy and in the world of academia, though not physics. (I think this is overdue for some reflection.)
+
+I've been working on pitching more freelance pieces recently, so far mostly on the tech side of things. Vice published my piece about having too many browser tabs, [[https://www.vice.com/en/article/88adya/death-by-1000-tabs-confessions-of-a-tab-hoarder][Death by 1,000 Tabs: Confessions of a Tab Hoarder]]. Happy to say I'm mostly been keeping a tab free life since then! Never thought I'd see the day.
+
+Last year I started writing regularly for [[https://boilingsteam.com/][Boiling Steam]], a Linux gaming website. You can see my articles [[https://boilingsteam.com/author/podiki/][listed on this page]]. I've highlighted some on the [[https://9bladed.com/about/][About page here]], too. And do see that for social media, contact info, and other highlights of my work.
+
+Going forward, I'll be publishing content in a few different ways: on this website, mainstream publications, and with an email newsletter via [[https://wanderingmind.substack.com/][Substack]]. For Substack, consider this an early pre-announcement, as I'll make a post about that soon and start sending it out (sign up now! tell your friends!). Pieces I publish on this website will be sent out on the Substack newsletter, but I'll also be using that for maybe more adventurous, smaller, and personal work. It will be the easiest way to get all that I'm writing and working on.
+
+So, stay tuned, more coming soon!

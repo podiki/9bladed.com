@@ -31,7 +31,8 @@ figure.portrait img {
 .nav-brand {
     font-family: "Metropolis";
     font-weight: bold;
-    font-style: italic
+    font-style: italic;
+    font-size: 1.6em !important;
 }
 
 /* don't captalize all of the site title */

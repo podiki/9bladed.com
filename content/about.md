@@ -30,6 +30,8 @@ Reach me on your favorite social media (see below) or email me, john.kehayias at
 
 #### Links
 
+[My Wandering Mind](https://wanderingmind.substack.com) is my newsletter for even more of my writing (go there to subscribe and tell your friends)
+
 [Boiling Steam](https://boilingsteam.com/author/podiki/) is a Linux gaming website I write for
 
 [Tangent Space](https://tangentspacepodcast.com/) an exciting new podcast I've started with my friend Brandon Anderson, where we talk science, fiction, and everything in between
