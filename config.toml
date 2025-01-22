@@ -5,9 +5,9 @@ languageCode = "en-us"
 title = "Aesthetics of the Absurd"
 theme = "newsroom"
 author = "John Kehayias"
-copyright = "Copyright © 2021 John Kehayias; all rights reserved."
+copyright = "Copyright © 2025 John Kehayias; all rights reserved."
 canonifyurls = true
-paginate = 6
+pagination.pagerSize = 6
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 # Disable comments by leaving disqusShortname empty
