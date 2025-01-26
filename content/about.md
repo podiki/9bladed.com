@@ -54,6 +54,9 @@ has my public programming projects.
 [CV](/files/cv.pdf)
 And if you want the official details, here is my current CV.
 
+[Resume](/files/resume.pdf)
+Or in a one page resume style.
+
 ***
 
 ##### This Website
